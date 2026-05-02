@@ -62,7 +62,6 @@ input.onButtonPressed(Button.AB, function () {
         music.setTempo(120)
         led.stopAnimation()
         didnotstart=!didnotstart
-        console.log("test")
         music.stopAllSounds()
         if(didnotstart==false){
             switch (i) {
